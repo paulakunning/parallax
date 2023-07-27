@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+    background-color: #f5ebe0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6d6f77;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid #6d6f77;
+    border-radius: 15px;
+    background-color: #fffdfb;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+h3 {
+    padding: 16px;
+    font-size: 32px;
+}
+
+p {
+    text-align: left;
+}
+
+.section1 {
+    background-image: url('./assets/summer.jpg');
+}
+
+.section2 {
+    background-image: url('./assets/fall.jpg');
+}
+
+.section3 {
+    background-image: url('./assets/winter.jpg');
+}
+
+.section4 {
+    background-image: url('./assets/spring.jpg');
+}
+
+.parallax {
+    background-size: cover;
+    height: 100vh;
+    max-width: 100vw;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.80;
+}
+
+.no-parallax {
+    background-color: #373737;
+    color: #f9dad5;
+    margin: auto;
+    padding: 50px 60px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer {
+    padding: 10px;
+    background-color: #fde2e4;
+    color: #373737;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
